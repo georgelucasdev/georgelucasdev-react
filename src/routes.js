@@ -1,9 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import React from 'react';
 import Home from './pages/Home';
-import Privacidade from './pages/Privacidade';
-import Reembolso from './pages/Reembolso';
-import Terms from './pages/Termos';
+import Privacidade from './pages/privacidade';
+import Reembolso from './pages/reembolso';
+import Terms from './pages/termos';
 import Enigmas from './pages/Enigmas';
 
 const RoutesApp = () => {

@@ -33,7 +33,7 @@ export default function Menu() {
                         </DropdownToggle>
                         <DropdownMenu right>
                             <DropdownItem>
-                                <a href="https://play.google.com/store/apps/details?id=com.aprendizado.escola" className="nav-link" style={{color: 'black'}}>Pré-Escola: Leitura Mágica</a>
+                                <a href="https://play.google.com/store/apps/details?id=com.aprendizado.escola" className="nav-link" style={{color: 'black'}}>Aprendizado Mágico</a>
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
@@ -47,9 +47,6 @@ export default function Menu() {
                             </DropdownItem>
                             <DropdownItem>
                                 <a href="https://play.google.com/store/apps/details?id=com.domino.duelo" className="nav-link" style={{color: 'black'}}>Dominó: Duelo Online</a>
-                            </DropdownItem>
-                            <DropdownItem>
-                                <RouterNavLink to="/Enigmas" className="nav-link" style={{color: 'black'}}>Enigmas da Escuridão</RouterNavLink>
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
@@ -69,9 +66,6 @@ export default function Menu() {
                             </DropdownItem>
                         </DropdownMenu>
                     </UncontrolledDropdown>
-                    <NavItem>
-                        <a href="https://precandidato.georgelucas.dev" className="nav-link" style={{color: 'white'}}>Pré-Candidato George Lucas</a>
-                    </NavItem>
                 </Nav>
             </Collapse>
         </Navbar>

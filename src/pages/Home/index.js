@@ -29,6 +29,9 @@ export default function Home() {
                 </section>
                 <hr className="hr3" />
                 <section>
+                    a
+                </section>
+                {/* <section>
                     <h3><strong><center>Projetos</center></strong></h3>
                     <div className="container3">
                         <div className="buttonsContainer">
@@ -38,7 +41,7 @@ export default function Home() {
                         {showInfo1 && <div><Concluidos /></div>}
                         {showInfo2 && <div><Ativos /></div>}
                     </div>
-                </section>
+                </section> */}
                 <hr className="hr3" />
                 <div className="container1">
                     <div className="container4">
