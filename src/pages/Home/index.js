@@ -29,19 +29,16 @@ export default function Home() {
                 </section>
                 <hr className="hr3" />
                 <section>
-                    a
+                <h5><strong><>
+                            Olá, seja bem-vindo ao meu site! Fique à vontade para explorar.<p/>
+                            <br/>
+                            Na aba "Quem é George Lucas", você pode saber mais sobre mim.<p/>
+                            Em "Criações", encontrará meus jogos desenvolvidos e publicados em várias plataformas.<p/>
+                            Por fim, em "Contato", você pode entrar em contato comigo para conversarmos sobre diversos assuntos.<p/>
+                            <br/>
+                            Aproveite sua visita!
+                    </></strong></h5>
                 </section>
-                {/* <section>
-                    <h3><strong><center>Projetos</center></strong></h3>
-                    <div className="container3">
-                        <div className="buttonsContainer">
-                            <button className="botaoconcluidos" onClick={handleButton1Click}>Concluidos</button>
-                            <button className="botaoativos" onClick={handleButton2Click}>Ativos</button>
-                        </div>
-                        {showInfo1 && <div><Concluidos /></div>}
-                        {showInfo2 && <div><Ativos /></div>}
-                    </div>
-                </section> */}
                 <hr className="hr3" />
                 <div className="container1">
                     <div className="container4">
