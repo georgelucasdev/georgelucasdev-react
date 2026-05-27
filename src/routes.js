@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Privacidade from './pages/privacidade';
 import Reembolso from './pages/reembolso';
 import Terms from './pages/termos';
-import Amazon from './pages/amazon';
+import Promocao from './pages/promocao';
 
 const RoutesApp = () => {
   return (
@@ -13,7 +13,7 @@ const RoutesApp = () => {
       <Route path="/politica-de-privacidade" element={<Privacidade />} />
       <Route path="/politica-de-reembolso" element={<Reembolso />} />
       <Route path="/termos-e-condicoes" element={<Terms />} />
-      <Route path="/amazon" element={<Amazon />} />
+      <Route path="/promocao" element={<Promocao />} />
     </Routes>
   );
 };

@@ -10,7 +10,7 @@ export default function Menu() {
       </NavLink>
       <nav className="site-nav">
         <NavLink to="/" end>Home</NavLink>
-        <NavLink to="/amazon">Amazon Shop</NavLink>
+        <NavLink to="/promocao">Promoção</NavLink>
         <NavLink to="/politica-de-privacidade">Privacidade</NavLink>
         <NavLink to="/termos-e-condicoes">Termos</NavLink>
         <NavLink to="/politica-de-reembolso">Reembolso</NavLink>
