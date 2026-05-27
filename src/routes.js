@@ -4,22 +4,18 @@ import Home from './pages/Home';
 import Privacidade from './pages/privacidade';
 import Reembolso from './pages/reembolso';
 import Terms from './pages/termos';
-import Enigmas from './pages/Enigmas';
-import Sobre from './pages/sobre';
-import Contato from './pages/contato';
+import Amazon from './pages/amazon';
 
 const RoutesApp = () => {
-    return (
-        <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/politica-de-privacidade" element={<Privacidade />} />
-            <Route path="/Enigmas" element={<Enigmas />} />
-            <Route path="/Sobre" element={<Sobre />} />
-            <Route path="/contato" element={<Contato />} />
-            <Route path="/politica-de-reembolso" element={<Reembolso />} />
-            <Route path="/termos-e-condicoes" element={<Terms />} />
-        </Routes>
-    );
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/politica-de-privacidade" element={<Privacidade />} />
+      <Route path="/politica-de-reembolso" element={<Reembolso />} />
+      <Route path="/termos-e-condicoes" element={<Terms />} />
+      <Route path="/amazon" element={<Amazon />} />
+    </Routes>
+  );
 };
 
 export default RoutesApp;

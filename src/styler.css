@@ -194,3 +194,168 @@ hr {
     font-family: 'Invisible-ExtraBold';
     src: url('../src/img/Invisible-ExtraBold.otf') format('truetype');
   }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--cinza-900);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header .brand img {
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.site-nav a {
+  color: #ffffff;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.35rem;
+  transition: background 0.2s ease;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 720px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+/* Home Page Styles */
+.hero-section {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ece7e7;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #ece7e7;
+}
+
+.apps-section {
+  width: 100%;
+}
+
+.apps-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ece7e7;
+}
+
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.app-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.app-card a {
+  display: block;
+}
+
+.app-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.app-card:hover .app-image {
+  filter: brightness(0.95);
+}
+
+.app-info {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #ece7e7;
+}
+
+.app-info p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #b8b8b8;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.app-link {
+  display: inline-block;
+  color: #1fa4e5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.app-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 720px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .apps-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .app-image {
+    height: 150px;
+  }
+}
+
