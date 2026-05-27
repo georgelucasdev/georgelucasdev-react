@@ -27,7 +27,7 @@ export default function Amazon() {
       link: 'https://amzn.to/4uBQBRe'
     },
     {
-      title: 'Mouse Gamer Predator Redragon M612',
+      title: 'Mouse Gamer Predator Redragon M612 ',
       description: 'Mouse gamer com alta sensibilidade e iluminação RGB — precisão para jogos competitivos.',
       image: imgMouse,
       link: 'https://amzn.to/4u24kjl'
