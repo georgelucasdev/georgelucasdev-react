@@ -27,7 +27,7 @@ export default function Amazon() {
       link: 'https://amzn.to/4uBQBRe'
     },
     {
-      title: 'Mouse Gamer Predator Redragon M612 ',
+      title: 'Mouse Gamer Predator Redragon M612',
       description: 'Mouse gamer com alta sensibilidade e iluminação RGB — precisão para jogos competitivos.',
       image: imgMouse,
       link: 'https://amzn.to/4u24kjl'
@@ -49,8 +49,8 @@ export default function Amazon() {
   return (
     <main className="container">
       <section className="hero-section">
-        <h1>Amazon Shop</h1>
-        <p className="hero-text">Links de produtos na Amazon — substitua pelos seus links de afiliado para gerar receita.</p>
+        <h1>Melhores de lnha para montar sua casa</h1>
+        <p className="hero-text">Promoções!!!!!.</p>
       </section>
 
       <hr className="hr3" />
