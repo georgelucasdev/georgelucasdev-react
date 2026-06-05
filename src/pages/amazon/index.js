@@ -5,6 +5,10 @@ import imgNotebook from '../../img/note.jpg';
 import imgMouse from '../../img/mause.jpg';
 import imgTeclado from '../../img/teclado.jpg';
 import imgGeneric from '../../img/fone.jpg';
+import imgMassa from '../../img/massa.jpg';
+import imgInter from '../../img/inter.jpg';
+import imgFoxlux from '../../img/foxlux.jpg';
+import imgAlicate from '../../img/alicate.jpg';
 
 export default function Amazon() {
   const products = [
@@ -39,10 +43,46 @@ export default function Amazon() {
       link: 'https://amzn.to/4vfbz8B'
     },
     {
-      title: 'Fome de ouvido com fio JBL',
+      title: 'Fone de ouvido com fio JBL',
       description: 'SOM PROFISSIONAL. Com a tecnologia JBL QuantumSOUND Signature, o JBL Quantum 100M2 coloca você no centro da ação para escutar os menores detalhes e sentir cada explosão, proporcionando uma experiência de som realista.',
       image: imgGeneric,
       link: 'https://amzn.to/4o2VmAX'
+    },
+    {
+      title: 'Monitor Gamer 27" 144Hz',
+      description: 'Monitor para jogos com painel curvo, 144Hz e tempo de resposta rápido, ideal para partidas competitivas.',
+      image: imgGeneric,
+      link: 'https://amzn.to/4xMonitor'
+    },
+    {
+      title: 'SSD NVMe 1TB Samsung',
+      description: 'SSD NVMe com alta velocidade de leitura e escrita para acelerar boot, jogos e carregamento de apps.',
+      image: imgPc,
+      link: 'https://amzn.to/4xSSD'
+    },
+    {
+      title: 'MASSA PLASTICA CINZA 400G - CARPLAST',
+      description: 'Reparação e Colagem em Diversos Materiais, com Foco em Reparação de Metais.',
+      image: imgMassa,
+      link: 'https://amzn.to/4foo50V'
+    },
+    {
+      title: 'Tramontina Conjunto 1 Interruptor Simples 4x2 Aria 6A 250 V Branco',
+      description: 'Produzido em termoplástico com acabamento brilho na cor branca.',
+      image: imgInter,
+      link: 'https://amzn.to/3RFIepv'
+    },
+    {
+      title: 'Foxlux Lâmpada LED Bulbo 9W 3000K Bivolt',
+      description: 'Com a Lâmpada de LED Bulbo Foxlux você economiza energia.',
+      image: imgFoxlux,
+      link: 'https://amzn.to/4o7eq0W'
+    },
+    {
+      title: 'Kit Alicate Crimpar + 1200 Terminais Ilhós Tubular 0,25-10mm² com Estojo',
+      description: 'Completo para Instalações Elétricas! Se você busca precisão.',
+      image: imgAlicate,
+      link: 'https://amzn.to/4uN0njH'
     }
   ];
 
