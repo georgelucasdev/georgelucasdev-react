@@ -10,10 +10,10 @@ const RoutesApp = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/promocao" element={<Promocao />} />
       <Route path="/politica-de-privacidade" element={<Privacidade />} />
       <Route path="/politica-de-reembolso" element={<Reembolso />} />
       <Route path="/termos-e-condicoes" element={<Terms />} />
-      <Route path="/promocao" element={<Promocao />} />
     </Routes>
   );
 };

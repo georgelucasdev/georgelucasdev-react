@@ -5,6 +5,10 @@ import imgNotebook from '../../img/note.jpg';
 import imgMouse from '../../img/mause.jpg';
 import imgTeclado from '../../img/teclado.jpg';
 import imgGeneric from '../../img/fone.jpg';
+import imgMassa from '../../img/massa.jpg';
+import imgInter from '../../img/inter.jpg';
+import imgFoxlux from '../../img/foxlux.jpg';
+import imgAlicate from '../../img/alicate.jpg';
 
 export default function Promocao() {
   const products = [
@@ -42,14 +46,36 @@ export default function Promocao() {
       title: 'Fone de ouvido com fio JBL',
       description: 'SOM PROFISSIONAL. Com a tecnologia JBL QuantumSOUND Signature, o JBL Quantum 100M2 coloca você no centro da ação para escutar os menores detalhes e sentir cada explosão, proporcionando uma experiência de som realista.',
       image: imgGeneric,
-      link: 'https://www.amazon.com.br/gp/aw/d/B0D6NLHV8N/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=6959ed0c036a0d72d23cec8ef634bf18&hsa_cr_id=0&qid=1779898322&sr=1-2-9e67e56a-6f64-441f-a281-df67fc737124&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=Q2mqi&content-id=amzn1.sym.28153920-e8af-4e55-ae3c-1905a4e32903%3Aamzn1.sym.28153920-e8af-4e55-ae3c-1905a4e32903&pf_rd_p=28153920-e8af-4e55-ae3c-1905a4e32903&pf_rd_r=ZDCDC6XDDQ6YQ2Z9K88C&pd_rd_wg=5H6XF&pd_rd_r=164fb525-d8c8-4ff4-bbe1-62934f000be6&th=1'
-    }
+      link: 'https://www.amazon.com.br/gp/aw/d/B0D6NLHV8N/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=6959ed0c036a0d72d23cec8ef634bf18&hsa_cr_id=0&qid=1779898322&sr=1-2-9e67e56a-6f64-441f-a281-df67fc737124&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=Q2mqi&content-id=amzn1.sym.28153920-e8af-4e55-ae3c-1905a4e32903%3Aamzn1.sym.28153920-e8af-4e55-ae3c-1905a4e32903&pf_rd_p=28153920-e8af-4e55-ae3c-1905a4e32903&pf_rd_r=ZDCDC6XDDQ6YQ2Z9K88C&pd_rd_wg=5H6XF&pd_rd_r=164fb525-d8c8-4ff4-bbe1-62934f000be6&th=1'    },
+    {
+      title: 'MASSA PLÁSTICA CINZA 400G - CARPLAST',
+      description: 'Reparação e Colagem em Diversos Materiais, com foco em reparação de metais.',
+      image: imgMassa,
+      link: 'https://amzn.to/4foo50V'
+    },
+    {
+      title: 'Tramontina Conjunto 1 Interruptor Simples 4x2 Aria 6A 250 V Branco',
+      description: 'Produzido em termoplástico com acabamento brilho na cor branca.',
+      image: imgInter,
+      link: 'https://amzn.to/3RFIepv'
+    },
+    {
+      title: 'Foxlux Lâmpada LED Bulbo 9W 3000K Bivolt',
+      description: 'Com a lâmpada de LED Bulbo Foxlux você economiza energia.',
+      image: imgFoxlux,
+      link: 'https://amzn.to/4o7eq0W'
+    },
+    {
+      title: 'Kit Alicate Crimpar + 1200 Terminais Ilhós Tubular 0,25-10mm² com Estojo',
+      description: 'Completo para instalações elétricas! Se você busca precisão.',
+      image: imgAlicate,
+      link: 'https://amzn.to/4uN0njH'    }
   ];
 
   return (
     <main className="container">
       <section className="hero-section">
-        <h1>Promoção</h1>
+        <h1>Promoções</h1>
         <p className="hero-text">Links de produtos em promoção — substitua pelos seus links de afiliado para gerar receita.</p>
       </section>
 
