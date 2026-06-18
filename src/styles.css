@@ -1,0 +1,72 @@
+:root{--bg:#071021;--muted:#9aa4b2;--accent:#06b6d4;--card:#0f1724;--text:#e6eef6}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);margin:0;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{font-family:Poppins,system-ui,sans-serif;font-weight:600}
+h1{font-size:2rem;font-weight:700}
+h2{font-size:1.75rem;font-weight:700}
+h3{font-size:1.25rem}
+.container{max-width:1100px;margin:0 auto;padding:2rem}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideInLeft{from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:translateX(0)}}
+@keyframes slideInRight{from{opacity:0;transform:translateX(20px)}to{opacity:1;transform:translateX(0)}}
+.navbar{background:transparent;border-bottom:1px solid rgba(255,255,255,0.04);position:sticky;top:0;z-index:30;animation:fadeIn 0.45s ease}
+.nav-inner{display:flex;align-items:center;justify-content:space-between}
+.brand img{height:32px;filter:brightness(1.2)}
+.nav-links a{margin-left:1rem;color:var(--muted);text-decoration:none;transition:color 0.18s}
+.nav-links a:hover{color:var(--text)}
+.hero{background:linear-gradient(180deg,rgba(6,182,212,0.06),rgba(0,0,0,0));padding:4rem 0}
+.hero-content{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}
+.hero-text{text-align:left;animation:slideInLeft 0.6s ease}
+.hero h1{font-size:2rem;margin:0 0 .5rem;animation:fadeIn 0.7s ease}
+.hero p{color:var(--muted);margin:0 0 1rem;max-width:720px;animation:fadeIn 0.8s ease}
+.hero .sub{color:var(--muted);margin-top:1rem;font-size:0.9rem}
+.cta-row{display:flex;gap:1rem;justify-content:flex-start;animation:fadeIn 0.9s ease}
+.btn{display:inline-block;padding:0.7rem 1rem;border-radius:8px;text-decoration:none;border:1px solid rgba(255,255,255,0.06);color:var(--text);background:transparent;transition:all 0.28s;cursor:pointer;font-weight:500}
+.btn:hover{border-color:var(--accent);transform:translateY(-2px)}
+.btn.primary{background:var(--accent);color:#052025;border-color:transparent;padding:0.7rem 1.1rem;font-weight:600}
+.btn.primary:hover{background:#06d5e0;box-shadow:0 8px 20px rgba(6,182,212,0.22)}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--text)}
+.btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
+.hero-mockup{animation:slideInRight 0.6s ease}
+.mockup-placeholder{display:flex;align-items:center;justify-content:center;min-height:360px}
+.mockup-window{width:100%;max-width:420px;background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.05)}
+.mockup-header{height:36px;background:linear-gradient(90deg,#1a2332,#0f1724);border-bottom:1px solid rgba(255,255,255,0.05);display:flex;align-items:center;padding:0 12px}
+.mockup-header::before{content:'';width:8px;height:8px;background:rgba(6,182,212,0.5);border-radius:50%;margin-right:8px}
+.mockup-body{height:300px;background:linear-gradient(135deg,rgba(6,182,212,0.05),rgba(6,182,212,0.02));display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:0.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.card{background:var(--card);padding:1.25rem;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.02);transition:all 0.3s;animation:fadeIn 0.6s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 14px 40px rgba(6,182,212,0.09);border-color:rgba(6,182,212,0.2)}
+.services h2,.pricing h2,.faq h2,.contact h2{margin-top:0}
+.price{font-weight:800;font-size:1.25rem;color:var(--accent)}
+.tag{font-size:0.85rem;color:var(--muted);margin-top:0.5rem}
+.faq-list{margin:2rem 0}
+.faq-item{margin:1rem 0;border-bottom:1px solid rgba(255,255,255,0.02)}
+.faq-question{width:100%;text-align:left;padding:1rem;background:transparent;border:none;color:var(--text);cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:color 0.2s;font-weight:600}
+.faq-question:hover{color:var(--accent)}
+.faq-icon{color:var(--accent);font-size:1.5rem;transition:transform 0.3s}
+.faq-answer{padding:0 1rem 1rem;color:var(--muted);line-height:1.6;animation:fadeIn 0.3s ease}
+.contact-form{display:grid;gap:0.5rem}
+input,textarea{width:100%;padding:0.65rem;border:1px solid rgba(255,255,255,0.06);border-radius:8px;background:transparent;color:var(--text);font-family:Inter,system-ui,sans-serif;transition:border-color 0.2s}
+input:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 12px rgba(6,182,212,0.1)}
+.footer{background:transparent;border-top:1px solid rgba(255,255,255,0.04);padding:2rem 0;margin-top:3rem}
+.footer-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:2rem;margin-bottom:1.5rem}
+.footer-col h4{margin-top:0;color:var(--text)}
+.footer-col ul{list-style:none;padding:0}
+.footer-col li{margin:0.5rem 0}
+.footer-col a{color:var(--muted);text-decoration:none;transition:color 0.2s}
+.footer-col a:hover{color:var(--text)}
+.footer-bottom{text-align:center;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.02);color:var(--muted);font-size:0.9rem}
+.legal-page{padding:2rem 0}
+.legal-page h1{margin-top:0;color:var(--accent)}
+.legal-page h2{margin-top:2rem;color:var(--text)}
+.legal-page p,.legal-page li{line-height:1.6;color:var(--muted)}
+.legal-page ul{margin:1rem 0;padding-left:2rem}
+.legal-page li{margin:0.5rem 0}
+.legal-page a{color:var(--accent)}
+.promo-grid{margin:2rem 0}
+.promo-card{display:flex;flex-direction:column}
+.promo-card a{margin-top:auto;align-self:flex-start}
+.purchase-note{font-size:0.9rem;color:var(--muted);margin-top:0.6rem}
+.timer{background:linear-gradient(90deg,#052025,#09323a);padding:0.35rem 0.6rem;border-radius:6px;color:var(--accent);font-weight:700}
+@media(max-width:900px){.hero-content{grid-template-columns:1fr}.hero-mockup{display:none}.hero h1{font-size:1.75rem}.footer-row{grid-template-columns:1fr}}
+@media(min-width:900px){.hero h1{font-size:2.6rem}}
